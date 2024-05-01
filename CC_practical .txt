@@ -1,0 +1,50 @@
+
+Ass_1
+
+open google cloud console 
+go to console
+create project and select 
+Search for "Admin API." and enable app engine API 
+-----------  
+rm -rf c1
+git clone "https://github.com/shreyac22/c1.git"
+cd c1
+python hello.py
+
+**************
+
+Ass_4
+download https://drive.google.com/drive/u/0/folders/1me_nJJh0fvdDOXX3ew2jzGQpoP7f_iFt
+open vitrul machine
+create 2 vm using new 
+add nat network 
+go to setting add link
+in v1 ifconfig
+in v2 touch filename.txt
+nano filename.txt
+type and ctrl+o save and enter then ctrl+ x back
+systemctl status ssh
+scp filename.txt vagrant@address:/home/vagrant
+in v1 ls  
+
+**************
+
+
+
+Ass_6_CC
+vs code command 
+
+npm install -g create-react-app
+npx create-react-app my-react-app
+cd my-react-app
+npm start
+
+And open new terminal 
+cd my-react-app
+git init
+git add . 
+git commit -m "heloo"
+git branch -M main
+git remote add origin repo_link
+git push -u origin main
+
